@@ -34,5 +34,6 @@ cask 'istat-menus'
 brew 'asdf'
 
 brew 'mas'
+
 # Keep your Mac's application settings in sync
 brew 'mackup'
