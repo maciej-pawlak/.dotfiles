@@ -1,0 +1,34 @@
+# Music streaming service app
+cask 'spotify'
+# Web browser
+cask 'google-chrome'
+# Team communication and collaboration software
+cask 'slack'
+# Terminal emulator as alternative to Apple's Terminal app
+cask 'iterm2'
+# Desktop client for WhatsApp
+cask 'whatsapp'
+# Instant messaging application focusing on security
+cask 'signal'
+# App to write, plan, collaborate, and get organized
+cask 'notion'
+# VPN client for secure internet access and private browsing
+cask 'nordvpn'
+# Open-source code editor
+cask 'visual-studio-code'
+# Graphical client for Git version control
+cask 'sourcetree'
+# Tool for sending personal documents to Kindles from Macs
+cask 'send-to-kindle'
+# Photo storage and sharing service
+cask 'amazon-photos'
+# Pack, ship and run any application as a lightweight container
+cask 'docker'
+# Desktop client for Telegram messenger
+cask 'telegram-desktop'
+# Grammarly for desktop
+cask 'grammarly-desktop'
+# Extendable version manager with support for Ruby, Node.js, Erlang & more
+brew 'asdf'
+
+brew 'mas'
