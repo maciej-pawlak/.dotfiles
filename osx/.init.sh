@@ -11,10 +11,12 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Upgrade any already-installed formulae.
 #brew upgrade
-
-brew bundle
+TEMP_BREWFILE=$(mktemp) && curl https://raw.githubusercontent.com/maciej-pawlak/.dotfiles/master/osx/Brewfile > $TEMP_BREWFILE && brew bundle --file=$TEMP_BREWFILE
 
 # ./.macos
 # echo "Restart computer in 1 minute"
 
 # sudo shutdown -r now
+
+
+# TMPF=$(mktemp) && curl https://raw.githubusercontent.com/maciej-pawlak/.dotfiles/master/osx/.init.sh > $TMPF && sh $TMPF
