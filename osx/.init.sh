@@ -10,9 +10,11 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 #brew update
 
 # Upgrade any already-installed formulae.
-#brew upgrade
-TEMP_BREWFILE=$(mktemp) && curl https://raw.githubusercontent.com/maciej-pawlak/.dotfiles/master/osx/Brewfile > $TEMP_BREWFILE && brew bundle --file=$TEMP_BREWFILE
+TEMP_BREWFILE=$(mktemp) && curl https://raw.githubusercontent.com/maciej-pawlak/.dotfiles/master/osx/Brewfile > $TEMP_BREWFILE 
+brew bundle --file=$TEMP_BREWFILE
 
+echo $TEMP_BREWFILE
+rm $TEMP_BREWFILE
 # ./.macos
 # echo "Restart computer in 1 minute"
 
