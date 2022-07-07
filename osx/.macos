@@ -46,4 +46,7 @@ defaults write com.apple.dock mru-spaces -bool false
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# Move dock to the right side
+defaults write com.apple.dock orientation right
+
 echo "Done. Note that some of these changes require a logout/restart to take effect."
