@@ -13,10 +13,16 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 TEMP_BREWFILE=$(mktemp) && curl https://raw.githubusercontent.com/maciej-pawlak/.dotfiles/master/osx/Brewfile > $TEMP_BREWFILE 
 brew bundle --file=$TEMP_BREWFILE
 
-echo $TEMP_BREWFILE
+echo "** delete temporary Brewfile: $TEMP_BREWFILE"
 rm $TEMP_BREWFILE
-# ./.macos
-# echo "Restart computer in 1 minute"
+
+echo '* Run .macos script'
+TEMP_MACOS=$(mktemp) && curl https://raw.githubusercontent.com/maciej-pawlak/.dotfiles/master/osx/.macos > $TEMP_MACOS
+sh $TEMP_MACOS
+
+echo "** delete temporary .macos file: $TEMP_MACOS"
+rm $TEMP_MACOS
+# echo "Restart computer now"
 
 # sudo shutdown -r now
 
