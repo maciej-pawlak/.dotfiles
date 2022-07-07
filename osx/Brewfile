@@ -1,42 +1,40 @@
-# Music streaming service app
-cask 'spotify'
+# Photo storage and sharing service
+cask 'amazon-photos'
+# Menu bar icon organizer
+cask 'bartender'
+# Pack, ship and run any application as a lightweight container
+cask 'docker'
 # Web browser
 cask 'google-chrome'
-# Team communication and collaboration software
-cask 'slack'
+# System monitoring app
+cask 'istat-menus'
 # Terminal emulator as alternative to Apple's Terminal app
 cask 'iterm2'
-# Desktop client for WhatsApp
-cask 'whatsapp'
-# Instant messaging application focusing on security
-cask 'signal'
 # App to write, plan, collaborate, and get organized
 cask 'notion'
 # VPN client for secure internet access and private browsing
 cask 'nordvpn'
-# Open-source code editor
-cask 'visual-studio-code'
-# Graphical client for Git version control
-cask 'sourcetree'
 # Tool for sending personal documents to Kindles from Macs
 cask 'send-to-kindle'
-# Photo storage and sharing service
-cask 'amazon-photos'
-# Pack, ship and run any application as a lightweight container
-cask 'docker'
+# Instant messaging application focusing on security
+cask 'signal'
+# Team communication and collaboration software
+cask 'slack'
+# Graphical client for Git version control
+cask 'sourcetree'
+# Music streaming service app
+cask 'spotify'
 # Desktop client for Telegram messenger
 cask 'telegram-desktop'
-# Grammarly for desktop
-cask 'grammarly-desktop'
-# System monitoring app
-cask 'istat-menus'
+# Open-source code editor
+cask 'visual-studio-code'
+# Desktop client for WhatsApp
+cask 'whatsapp'
+
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew 'asdf'
-
 brew 'mas'
-
 # Keep your Mac's application settings in sync
 brew 'mackup'
-
 # Search tool like grep and The Silver Searcher
 brew 'ripgrep'
