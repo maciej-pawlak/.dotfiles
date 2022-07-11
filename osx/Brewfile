@@ -37,5 +37,7 @@ brew 'asdf'
 brew 'mackup'
 # Mac App Store command-line interface
 brew 'mas'
+# Rsync for cloud storage
+brew 'rclone'
 # Search tool like grep and The Silver Searcher
 brew 'ripgrep'

@@ -49,4 +49,7 @@ defaults write com.apple.dock autohide -bool true
 # Move dock to the right side
 defaults write com.apple.dock orientation right
 
+# Hide desktop icons
+defaults write com.apple.finder CreateDesktop false
+
 echo "Done. Note that some of these changes require a logout/restart to take effect."
