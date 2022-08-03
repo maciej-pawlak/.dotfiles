@@ -41,3 +41,5 @@ brew 'mas'
 brew 'rclone'
 # Search tool like grep and The Silver Searcher
 brew 'ripgrep'
+# Rust - safe, concurrent, practical language
+brew 'rust'
